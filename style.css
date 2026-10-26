@@ -349,6 +349,74 @@ footer {
     font-size: 0.75rem;
     letter-spacing: 1.5px;
 }
+/* CATEGORY FILTER BAR */
+.category-section {
+    padding: 30px 8%;
+    background: #0d0d0d;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.category-container {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.category-btn {
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: #fff;
+    padding: 10px 22px;
+    font-weight: 600;
+    font-size: 0.85rem;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.category-btn.active, 
+.category-btn:hover {
+    background: #fff;
+    color: #000;
+    border-color: #fff;
+}
+
+/* CATEGORY HEADINGS */
+.category-group {
+    margin-bottom: 60px;
+}
+
+.category-heading {
+    color: #e5c158; /* Gold accent color */
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+}
+
+/* CUSTOM ORDER BANNER */
+.custom-order-banner {
+    margin-top: 50px;
+    background: radial-gradient(circle, #1a1a1a 0%, #0d0d0d 100%);
+    border: 1px dashed rgba(255, 255, 255, 0.2);
+    padding: 40px 30px;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.custom-order-content h3 {
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.custom-order-content p {
+    color: #888;
+    margin-bottom: 20px;
+}
 /* MOBILE RESPONSIVENESS (Screens 768px and down) */
 @media (max-width: 768px) {
     /* Navbar tweaks */
